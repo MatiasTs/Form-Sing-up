@@ -1,0 +1,21 @@
+body{
+    background-color: #232323;
+}
+
+
+.container {
+    display: flex;
+    min-height: 100vh;
+    max-width: 80%;
+}
+
+.odin {
+    flex: 1;
+}
+
+.info {
+    flex: 2;
+    background-color: #F9FAFB;
+}
+
+
