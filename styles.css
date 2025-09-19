@@ -8,6 +8,7 @@
 body{
     background-color: #232323;
     margin-top: 0;
+    font-family: sans-serif;
 }
 
 
@@ -22,13 +23,7 @@ body{
     flex: 1;
 }
 
-.info {
-    flex: 2;
-    background-color: #F9FAFB;
-    padding: 30px;
-    display: flex;
-    align-items: center;
-}
+
 
 
 .odin {
@@ -83,4 +78,113 @@ body{
 }
 
 
+
+
+/*######   INFO SECTION ########*/
+
+
+
+.info {
+    flex: 2;
+    background-color: #F9FAFB;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.texto{
+  margin-left: 20px;
+  margin-right: 80px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+
+form {
+  
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 10px -8px rgba(0,0,0,0.70)
+}
+
+form > p{
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.form-row {
+  display: flex;
+  margin-bottom: 15px;
+  width: auto;
+  gap: 50px;
+}
+
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+
+label {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 10px;
+  color: #727375;
+  margin-bottom: 5px;
+}
+
+/* Estilos para los campos de entrada */
+input {
+  /* padding: 10px; */
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  width: 157px;
+}
+
+/* Estilos para el campo enfocado (borde azul) */
+input:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+  outline: none;
+}
+
+/* Estilos para el campo con error (borde rojo) */
+input[type="password"]:invalid {
+  border-color: #dc3545;
+}
+
+/* Quita el box-shadow azul en campos con error que están enfocados */
+.error-input:focus {
+  box-shadow: none;
+}
+
+.account{
+
+  margin-left: 30px;
+  font-size: 12px;
+}
+
+button {
+  /* width: 100%; */ /* Elimina o comenta esta línea si existe */
+  padding: 10px 18px;
+  border-radius: 5px;
+  background: #596D48;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  width: 150px;
+  box-shadow: 3px 4px 10px -2px rgba(0,0,0,0.25);
+}
+
+a {
+  text-decoration: none;
+  color: green !important;
+}
 
