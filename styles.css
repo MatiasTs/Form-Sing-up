@@ -140,27 +140,27 @@ label {
   margin-bottom: 5px;
 }
 
-/* Estilos para los campos de entrada */
+
 input {
-  /* padding: 10px; */
+  
   border: 1px solid #ced4da;
   border-radius: 4px;
   width: 157px;
 }
 
-/* Estilos para el campo enfocado (borde azul) */
+
 input:focus {
   border-color: #007bff;
   box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
   outline: none;
 }
 
-/* Estilos para el campo con error (borde rojo) */
+
 input[type="password"]:invalid {
   border-color: #dc3545;
 }
 
-/* Quita el box-shadow azul en campos con error que están enfocados */
+
 .error-input:focus {
   box-shadow: none;
 }
@@ -172,7 +172,7 @@ input[type="password"]:invalid {
 }
 
 button {
-  /* width: 100%; */ /* Elimina o comenta esta línea si existe */
+  
   padding: 10px 18px;
   border-radius: 5px;
   background: #596D48;
